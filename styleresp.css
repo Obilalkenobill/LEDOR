@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px)
+{
+    .block {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        width: 60%;
+        margin: auto;
+        grid-gap: 1em;
+    }
+    .temoignage{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "perso" ".";
+    }
+    .perso{
+        grid-area: perso;
+    }
+    .temoignage2{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "perso" ".";
+        padding:0%;
+    }
+    .section3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "team" "unekipe";
+    }
+    .team{
+        grid-area:team;
+    }
+    .unekipe{
+        grid-area:unekipe;
+    }
+}

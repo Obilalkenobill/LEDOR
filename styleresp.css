@@ -22,7 +22,6 @@
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: "perso" ".";
-        padding:0%;
     }
     .section3{
         display: grid;

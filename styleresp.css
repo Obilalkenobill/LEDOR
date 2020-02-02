@@ -35,4 +35,7 @@
     .unekipe{
         grid-area:unekipe;
     }
+    .section4 .temoignage2 p {
+        padding-left: 7.5%;
+    }
 }
